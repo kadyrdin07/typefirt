@@ -1,0 +1,44 @@
+.section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	gap: 70px;
+	.container {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+		width: 400px;
+		height: 300px;
+		background-color: white;
+		box-shadow: 0 0 30px 0 black;
+		border-radius: 30px;
+	}
+
+	.contain {
+		width: 400px;
+		height: 300px;
+		background-color: white;
+		box-shadow: 0 0 30px 0 black;
+		border-radius: 30px;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+	.chekbox {
+		width: 400px;
+		height: 300px;
+		background: white;
+		box-shadow: 0 0 30px black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+	}
+}
